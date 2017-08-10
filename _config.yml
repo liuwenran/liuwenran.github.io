@@ -1,7 +1,7 @@
 # Site settings
 title: To be a better RanGo
 description: serious sincerely positive insistent 
-url: "http://liuwenran.github.io/blade-theme/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://liuwenran.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author:
