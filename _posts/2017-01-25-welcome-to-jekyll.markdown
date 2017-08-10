@@ -7,4 +7,4 @@ permalink: /welcome-to-jekyll/
 ---
 
 
-# Oh , my god, I'm shy!
+Oh , my god, I'm shy!
