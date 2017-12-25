@@ -5,13 +5,9 @@ date:   2017-08-10 17:00:09 -0200
 description: Example.
 permalink: /example/
 ---
+emmm...........
 
-# e... - what to say
-
-- - -
-
-
-Something happan!
+nothing happened!
 
 
 - - -
