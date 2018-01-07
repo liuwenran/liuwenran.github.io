@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "first content"
-date:   2017-08-10 17:00:09 -0200
+date:   2017-08-10 17:00:09 
 description: Example.
 permalink: /example/
 ---

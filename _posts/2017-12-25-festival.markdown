@@ -1,12 +1,18 @@
 ---
 layout: post
 title:  "merry Christmas"
-date:   2017-12-25 15:00:09 
+date:   2017-12-23 15:00:09 
 description: festival
 permalink: /festival/
 ---
 
 merry Christmas
+
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
+
+<!-- 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<u>$ f(x)=x $</u> -->
 
 
 - - -
