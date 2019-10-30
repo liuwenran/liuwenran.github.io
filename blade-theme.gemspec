@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://mateussmedeiros.github.io/blade-theme/"
   spec.license       = "MIT"
  
-  spec.add_runtime_dependency "jekyll", "~> 3.3"
+  spec.add_runtime_dependency "jekyll", ">= 3.3", "< 5.0"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.6"
   spec.add_runtime_dependency 'jekyll-seo-tag'
   spec.add_runtime_dependency "jekyll-sitemap"
