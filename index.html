@@ -1,33 +1,194 @@
 ---
 layout: default
+title: ""
+author_profile: true
+permalink: /
+description: "Wenran Liu is a research engineer working on LLM post-training, mathematical reasoning, AI agents, and generative visual models."
 ---
 
-<div class="home">
+<span class="anchor" id="about-me"></span>
 
-  <p class="welcome-title"> Hi, I’m Wenran Liu<!-- <a href="http://liuwenran.github.io/" target="_blank">{{ site.author.name }}</a> -->
-    , a graduate student. </p>
+<h1>👨‍💻 About Me</h1>
 
-  <p> Tody is a boring day , I don't know what I should do , so I create this webpage , I get dizzy sooooo much. </p>
+<p>
+  I am a Research Engineer at <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a>,
+  working on large language model post-training, mathematical reasoning, and AI agents.
+  I contribute to the post-training of
+  <a href="https://arxiv.org/abs/2603.25040">Intern-S1-Pro</a> and
+  <a href="https://arxiv.org/abs/2608.13505">Intern-S2-Preview</a>, with a focus on
+  mathematical reasoning data, supervised fine-tuning, and reinforcement learning with verifiable rewards.
+</p>
 
-    <h1 class="page-title"> my blog </h1>
+<p>
+  Previously, I worked with the OpenMMLab generative image and video team on diffusion models,
+  image editing, and character animation. Before that, I was an applied researcher at Tencent,
+  where I developed video understanding and efficient vision systems for large-scale products.
+  I received both my M.S. and B.E. degrees from the Department of Automation at Tsinghua University.
+</p>
 
-    <ul class="post-list">
-      {% for post in site.posts limit:2 %}
-        <li class="post-container"> 
-        
-          <p> <span class="post-date"><i>{{ post.date | date: "%-d %b, %Y" }}</i></span> — <a class="post-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a> — {{ post.content | strip_html | truncatewords: 40  }}  </p>
+<p>
+  My research interests include <strong>LLM post-training and reasoning</strong>,
+  <strong>agentic AI and AI for research</strong>, and
+  <strong>generative visual intelligence</strong>.
+</p>
 
-        </li>
-      {% endfor %}
-    </ul>
-  
-    <a href="blog"> See more blogs... </a>
+<span class="anchor" id="news"></span>
 
-    <p> </p>
+<h1>📰 News</h1>
 
-    <h1 class="page-title"> my album </h1>
-      <!-- <p> Am I handsome, don't you have b shu in your heart? <img src="/data/bshu.jpeg"  alt="b shu in heart" height="200" width="200" /> </p> -->
-      <!-- <p> let's sing, rua! <img src="/data/sing.jpeg" alt="sing" height="300" width="200"/> </p> -->
-    <a href="album"> See more photos... </a>
+<ul class="news-list">
+  <li><strong>August 2026:</strong> We released <a href="https://arxiv.org/abs/2608.13505">Intern-S2-Preview</a>, a series of scientific agentic foundation models.</li>
+  <li><strong>July 2026:</strong> We introduced <a href="https://arxiv.org/abs/2607.20926">SciExplore</a>, a benchmark for scientific information-seeking and reasoning agents.</li>
+  <li><strong>April 2026:</strong> We released <a href="https://arxiv.org/abs/2604.14116">TREX</a>, a multi-agent system for automating the LLM fine-tuning lifecycle.</li>
+  <li><strong>March 2026:</strong> We released <a href="https://arxiv.org/abs/2603.25040">Intern-S1-Pro</a>, a trillion-parameter scientific multimodal foundation model.</li>
+  <li><strong>August 2025:</strong> We released <a href="https://arxiv.org/abs/2508.07409">CharacterShot</a> for controllable and consistent 4D character animation.</li>
+  <li><strong>2024:</strong> <a href="https://arxiv.org/abs/2407.17438">HumanVid</a> and <a href="https://arxiv.org/abs/2312.03594">PowerPaint</a> appeared at NeurIPS and ECCV, respectively.</li>
+</ul>
 
+<span class="anchor" id="research"></span>
+
+<h1>🔬 Research</h1>
+
+<div class="research-item">
+  <h2>LLM Post-training and Mathematical Reasoning</h2>
+  <p>
+    I build and curate mathematical reasoning data for supervised fine-tuning and RLVR,
+    spanning basic computation, competition mathematics, and long-form proofs.
+    I contributed to the mathematical reasoning capabilities of
+    <a href="https://arxiv.org/abs/2603.25040">Intern-S1-Pro</a> and
+    <a href="https://arxiv.org/abs/2608.13505">Intern-S2-Preview</a>.
+  </p>
 </div>
+
+<div class="research-item">
+  <h2>Agentic AI and AI for Research</h2>
+  <p>
+    I develop agents that automate data synthesis, training, evaluation, and experimental analysis.
+    My recent work includes the Researcher module in
+    <a href="https://arxiv.org/abs/2604.14116">TREX</a>, the
+    <a href="https://arxiv.org/abs/2607.20926">SciExplore</a> benchmark, and an olympiad-level
+    mathematics agent deployed in the
+    <a href="https://internlm.intern-ai.org.cn/">InternLM online platform</a>.
+  </p>
+</div>
+
+<div class="research-item">
+  <h2>Generative Visual Intelligence</h2>
+  <p>
+    I have worked on diffusion-based image generation and editing, human image animation,
+    and controllable 4D character generation. Representative projects include
+    <a href="https://arxiv.org/abs/2312.03594">PowerPaint</a>,
+    <a href="https://arxiv.org/abs/2407.17438">HumanVid</a>, and
+    <a href="https://arxiv.org/abs/2508.07409">CharacterShot</a>.
+    I also supported visual asset generation for the CCTV animated series <em>Qian Qiu Shi Song</em>.
+  </p>
+</div>
+
+<span class="anchor" id="publications"></span>
+
+<h1>📝 Publications</h1>
+
+<p class="section-note">
+  Selected publications are listed below. See
+  <a href="https://scholar.google.com/citations?user=fwKOaD8AAAAJ&amp;hl=en">Google Scholar</a>
+  for the latest record.
+</p>
+
+<h2>2026</h2>
+<ul class="publication-list">
+  <li>
+    <a href="https://arxiv.org/abs/2608.13505"><strong>Intern-S2-Preview: Scientific Agentic Foundation Model</strong></a>.
+    Lei Bai, Jiaqi Cao, Chiyu Chen, et al. <em>arXiv, 2026.</em> <span class="pub-note">Co-author.</span>
+  </li>
+  <li>
+    <a href="https://arxiv.org/abs/2607.20926"><strong>SciExplore: Evaluating Autonomous Agents from Scientific Navigation to Information Integration</strong></a>.
+    Yinhao Tang, Youqing Fang, Yanan Sun, <strong>Wenran Liu</strong>, Weiming Zhang, Bin Liu, Kuikun Liu, Wenwei Zhang, Kai Chen.
+    <em>arXiv, 2026. Submitted to ACL 2026.</em>
+  </li>
+  <li>
+    <a href="https://arxiv.org/abs/2604.14116"><strong>TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration</strong></a>.
+    Zerun Ma, Guoqiang Wang, Xinchen Xie, Yicheng Chen, He Du, Bowen Li, Yanan Sun, <strong>Wenran Liu</strong>, Kai Chen, Yining Li.
+    <em>arXiv, 2026.</em>
+  </li>
+  <li>
+    <a href="https://arxiv.org/abs/2603.25040"><strong>Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale</strong></a>.
+    Yicheng Zou, Dongsheng Zhu, Lin Zhu, et al. <em>arXiv, 2026.</em> <span class="pub-note">Co-author.</span>
+  </li>
+</ul>
+
+<h2>2025</h2>
+<ul class="publication-list">
+  <li>
+    <a href="https://arxiv.org/abs/2508.07409"><strong>CharacterShot: Controllable and Consistent 4D Character Animation</strong></a>.
+    Junyao Gao, Jiaxing Li, <strong>Wenran Liu</strong>, Yanhong Zeng, Fei Shen, Kai Chen, Yanan Sun, Cairong Zhao.
+    <em>arXiv, 2025.</em>
+  </li>
+  <li>
+    <a href="https://arxiv.org/abs/2503.19990"><strong>LEGO-Puzzles: How Good Are MLLMs at Multi-Step Spatial Reasoning?</strong></a>.
+    Kexian Tang, Junyao Gao, Yanhong Zeng, Haodong Duan, Yanan Sun, Zhening Xing, <strong>Wenran Liu</strong>, Kaifeng Lyu, Kai Chen.
+    <em>arXiv, 2025.</em>
+  </li>
+</ul>
+
+<h2>2024</h2>
+<ul class="publication-list">
+  <li>
+    <a href="https://arxiv.org/abs/2407.17438"><strong>HumanVid: Demystifying Training Data for Camera-controllable Human Image Animation</strong></a>.
+    Zhenzhi Wang, Yixuan Li, Yanhong Zeng, Youqing Fang, Yuwei Guo, <strong>Wenran Liu</strong>, Jing Tan, Kai Chen, Tianfan Xue, Bo Dai, Dahua Lin.
+    <em>NeurIPS Datasets and Benchmarks Track, 2024.</em>
+  </li>
+  <li>
+    <a href="https://arxiv.org/abs/2312.03594"><strong>A Task is Worth One Word: Learning with Task Prompts for High-Quality Versatile Image Inpainting</strong></a>.
+    Junhao Zhuang, Yanhong Zeng, <strong>Wenran Liu</strong>, Chun Yuan, Kai Chen.
+    <em>ECCV, 2024.</em>
+  </li>
+</ul>
+
+<h2>Earlier Work</h2>
+<ul class="publication-list">
+  <li>
+    <a href="https://doi.org/10.1109/MMSP.2018.8547088"><strong>3-Stream Convolutional Networks for Video Action Recognition with Hybrid Motion Field</strong></a>.
+    Wukui Yang, Shan Gao, <strong>Wenran Liu</strong>, Xiangyang Ji. <em>IEEE MMSP, 2018.</em>
+  </li>
+  <li>
+    <a href="https://doi.org/10.1109/GlobalSIP.2017.8309182"><strong>Transfer Knowledge for High Sparsity in Deep Neural Networks</strong></a>.
+    <strong>Wenran Liu</strong>, Xiaogang Chen, Xiangyang Ji. <em>IEEE GlobalSIP, 2017.</em>
+  </li>
+</ul>
+
+<span class="anchor" id="experience"></span>
+
+<h1>💻 Experience</h1>
+
+<ul class="timeline-list">
+  <li><span>2025.02 – Present</span><div><strong>Shanghai AI Laboratory</strong> — Research Engineer, LLM Post-training</div></li>
+  <li><span>2022.10 – 2025.02</span><div><strong>Shanghai AI Laboratory / OpenMMLab</strong> — Research Engineer, Generative Image and Video</div></li>
+  <li><span>2020.05 – 2022.09</span><div><strong>Tencent Youtu Lab</strong> — Applied Researcher, Video Understanding</div></li>
+  <li><span>2018.08 – 2020.04</span><div><strong>Tencent Multimedia Lab</strong> — Applied Researcher, Vision Algorithms and Heterogeneous Computing</div></li>
+  <li><span>2017.07 – 2017.09</span><div><strong>ByteDance AI Lab</strong> — Research Intern, Image Quality Assessment</div></li>
+</ul>
+
+<span class="anchor" id="education"></span>
+
+<h1>📖 Education</h1>
+
+<ul class="timeline-list">
+  <li><span>2015 – 2018</span><div><strong>Tsinghua University</strong> — M.S. in Automation, advised by Prof. Xiangyang Ji</div></li>
+  <li><span>2011 – 2015</span><div><strong>Tsinghua University</strong> — B.E. in Automation</div></li>
+</ul>
+
+<span class="anchor" id="awards"></span>
+
+<h1>🏅 Honors and Awards</h1>
+
+<ul>
+  <li><strong>2021</strong> — Tencent Excellent R&amp;D Award</li>
+  <li><strong>2021</strong> — Tencent Youtu Lab Annual Breakthrough Award</li>
+  <li><strong>2020</strong> — Tencent Annual Business Breakthrough Award</li>
+  <li><strong>2020</strong> — Tencent Special Contribution Award for COVID-19 Response</li>
+  <li><strong>2012–2014</strong> — Academic Excellence and Tsinghua Friend–EMC Scholarships</li>
+</ul>
+
+<p class="archive-note">
+  This website began in 2017. The original posts are preserved in the <a href="/blog/">blog archive</a>.
+</p>

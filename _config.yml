@@ -1,41 +1,53 @@
-# Site settings
-title: To be a better RanGo
-description: serious sincerely positive insistent 
-url: "http://liuwenran.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+title: "Wenran Liu (刘文然)"
+description: >-
+  Research Engineer at Shanghai AI Laboratory. I work on LLM post-training,
+  mathematical reasoning, AI agents, and generative visual models.
+url: "https://liuwenran.github.io"
+repository: "liuwenran/liuwenran.github.io"
+timezone: Asia/Shanghai
+encoding: utf-8
 
-# Author settings
 author:
-  name     : Wenran Liu
-  bio      : A man who is a single dog
-  email    : not_here@gmail.com
-  twitter  : I have no twitter #https://twitter.com/mateussousam
+  name: "Wenran Liu (刘文然)"
+  avatar: "/images/profile.jpg"
+  bio: "Shanghai AI Laboratory"
+  location: "Shanghai, China"
+  email: "lwrshi1965@gmail.com"
+  github: "liuwenran"
+  googlescholar: "https://scholar.google.com/citations?user=fwKOaD8AAAAJ&hl=en"
 
-#SEO settings
-logo: /assets/img/img-blog.png/ # Site logo URL
-twitter_username: liuwenran # Twitter username
-facebook:
-    app_id: 0 # App ID
-    publisher: 0# URL of the Facebook page
-    admins: 0 # Facebook user ID that manages the page
+include:
+  - _pages
 
-# Build settings
-permalink: /:title/
+exclude:
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - temp
+
 markdown: kramdown
-paginate: 5
-paginate_path: "/blog/page/:num"
+highlighter: rouge
+permalink: /:title/
 
-gems:
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-seo-tag
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-css_folder:  "/assets/css"
-js_folder:  "/assets/js"
-img_folder:  "/assets/img"
-sass:
-    style: compressed
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
