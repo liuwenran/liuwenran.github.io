@@ -38,49 +38,63 @@ description: "Wenran Liu is a research engineer working on LLM post-training, ma
 
 <ul class="news-list">
   <li><strong>August 2026:</strong> We released <a href="https://arxiv.org/abs/2608.13505">Intern-S2-Preview</a>, a series of scientific agentic foundation models.</li>
-  <li><strong>July 2026:</strong> We introduced <a href="https://arxiv.org/abs/2607.20926">SciExplore</a>, a benchmark for scientific information-seeking and reasoning agents.</li>
-  <li><strong>April 2026:</strong> We released <a href="https://arxiv.org/abs/2604.14116">TREX</a>, a multi-agent system for automating the LLM fine-tuning lifecycle.</li>
   <li><strong>March 2026:</strong> We released <a href="https://arxiv.org/abs/2603.25040">Intern-S1-Pro</a>, a trillion-parameter scientific multimodal foundation model.</li>
-  <li><strong>August 2025:</strong> We released <a href="https://arxiv.org/abs/2508.07409">CharacterShot</a> for controllable and consistent 4D character animation.</li>
-  <li><strong>2024:</strong> <a href="https://arxiv.org/abs/2407.17438">HumanVid</a> and <a href="https://arxiv.org/abs/2312.03594">PowerPaint</a> appeared at NeurIPS and ECCV, respectively.</li>
 </ul>
 
-<span class="anchor" id="research"></span>
+<span class="anchor" id="projects"></span>
 
-<h1>🔬 Research</h1>
+<h1>🚀 Projects</h1>
 
-<div class="research-item">
-  <h2>LLM Post-training and Mathematical Reasoning</h2>
+<div class="project-item">
+  <h2>Intern Science: Mathematical Reasoning Post-training</h2>
   <p>
-    I build and curate mathematical reasoning data for supervised fine-tuning and RLVR,
-    spanning basic computation, competition mathematics, and long-form proofs.
-    I contributed to the mathematical reasoning capabilities of
+    I worked on mathematical reasoning data and post-training for
     <a href="https://arxiv.org/abs/2603.25040">Intern-S1-Pro</a> and
-    <a href="https://arxiv.org/abs/2608.13505">Intern-S2-Preview</a>.
+    <a href="https://arxiv.org/abs/2608.13505">Intern-S2-Preview</a>, covering data curation,
+    voting-based cleaning, difficulty stratification, SFT, and RLVR validation.
+    Intern-S2-Preview-397B achieved 86.25 on IMO-Bench and 91.57 on HMMT-2026.
   </p>
 </div>
 
-<div class="research-item">
-  <h2>Agentic AI and AI for Research</h2>
+<div class="project-item">
+  <h2>AI4AI: Automated LLM Training and Researcher Agents</h2>
   <p>
-    I develop agents that automate data synthesis, training, evaluation, and experimental analysis.
-    My recent work includes the Researcher module in
-    <a href="https://arxiv.org/abs/2604.14116">TREX</a>, the
-    <a href="https://arxiv.org/abs/2607.20926">SciExplore</a> benchmark, and an olympiad-level
-    mathematics agent deployed in the
-    <a href="https://internlm.intern-ai.org.cn/">InternLM online platform</a>.
+    I built an automated loop connecting data synthesis, training, evaluation, result analysis,
+    and the next round of data generation. I also developed the Researcher module in
+    <a href="https://arxiv.org/abs/2604.14116">TREX</a> and contributed to
+    <a href="https://arxiv.org/abs/2607.20926">SciExplore</a>, a benchmark for scientific
+    information-seeking and reasoning agents.
   </p>
 </div>
 
-<div class="research-item">
-  <h2>Generative Visual Intelligence</h2>
+<div class="project-item">
+  <h2>InternS1-MO: Olympiad-level Mathematics Agent</h2>
   <p>
-    I have worked on diffusion-based image generation and editing, human image animation,
-    and controllable 4D character generation. Representative projects include
-    <a href="https://arxiv.org/abs/2312.03594">PowerPaint</a>,
-    <a href="https://arxiv.org/abs/2407.17438">HumanVid</a>, and
-    <a href="https://arxiv.org/abs/2508.07409">CharacterShot</a>.
-    I also supported visual asset generation for the CCTV animated series <em>Qian Qiu Shi Song</em>.
+    I developed an agent pipeline for CMO- and IMO-level problems, combining parallel proof generation,
+    lemma-level voting, proof verification, first-error localization, and candidate selection.
+    The agent was deployed to the <a href="https://internlm.intern-ai.org.cn/">InternLM online platform</a>
+    to provide users with an olympiad-level mathematical reasoning experience.
+  </p>
+</div>
+
+<div class="project-item">
+  <h2><em>Qian Qiu Shi Song</em>: AIGC Animation Production</h2>
+  <p>
+    I developed generative visual algorithms for the CCTV animated series <em>Qian Qiu Shi Song</em>,
+    supporting the creation of characters, scenes, and props. The production workflow combined
+    SDXL LoRA training, image-to-image generation, local repainting, and style fine-tuning to maintain
+    visual consistency across shots. The series was aired on CCTV-1.
+  </p>
+</div>
+
+<div class="project-item">
+  <h2>OpenMMLab Generative AI Ecosystem</h2>
+  <p>
+    As a core contributor to <a href="https://github.com/open-mmlab/mmagic">MMagic</a>, I integrated
+    image and video generation methods including Stable Diffusion, ControlNet Animation, and AnimateDiff,
+    and maintained training, inference, configuration, and documentation workflows. I also supported
+    image generation, editing, and animation capabilities for
+    <a href="https://magic-animation.intern-ai.org.cn/home">MagicMaker / InternLM Magic</a>.
   </p>
 </div>
 
@@ -141,18 +155,6 @@ description: "Wenran Liu is a research engineer working on LLM post-training, ma
     <a href="https://arxiv.org/abs/2312.03594"><strong>A Task is Worth One Word: Learning with Task Prompts for High-Quality Versatile Image Inpainting</strong></a>.
     Junhao Zhuang, Yanhong Zeng, <strong>Wenran Liu</strong>, Chun Yuan, Kai Chen.
     <em>ECCV, 2024.</em>
-  </li>
-</ul>
-
-<h2>Earlier Work</h2>
-<ul class="publication-list">
-  <li>
-    <a href="https://doi.org/10.1109/MMSP.2018.8547088"><strong>3-Stream Convolutional Networks for Video Action Recognition with Hybrid Motion Field</strong></a>.
-    Wukui Yang, Shan Gao, <strong>Wenran Liu</strong>, Xiangyang Ji. <em>IEEE MMSP, 2018.</em>
-  </li>
-  <li>
-    <a href="https://doi.org/10.1109/GlobalSIP.2017.8309182"><strong>Transfer Knowledge for High Sparsity in Deep Neural Networks</strong></a>.
-    <strong>Wenran Liu</strong>, Xiaogang Chen, Xiangyang Ji. <em>IEEE GlobalSIP, 2017.</em>
   </li>
 </ul>
 
