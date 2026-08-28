@@ -40,6 +40,14 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+.sidebar .author__name {
+    white-space: nowrap;
+
+    @include breakpoint($medium) {
+        font-size: $type-size-4;
+    }
+}
+
 .paper-box {
     display: flex;
     justify-content: left;
